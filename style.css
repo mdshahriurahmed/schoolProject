@@ -13,6 +13,7 @@ body {
     margin-top: 0;
 }
 
+/* header syle here */
 .heroBG {
     background-image: url("images/background\ sec-.png");
     background-repeat: no-repeat;
@@ -90,20 +91,81 @@ header a {
     display: none;
 }
 
+/* hero section style here */
+
+.heroMain {
+    display: flex;
+    align-items: center;
+}
+
+#online {
+    color: #96BB7C;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#heroTitle {
+    font-size: 58px;
+    color: #252B42;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.heroRight {
+    margin-bottom: -80px;
+}
+
+.heroRight img {
+    width: 100%;
+    height: auto;
+}
+
+#heroDes {
+    font-size: 20px;
+    color: #737373;
+    margin-bottom: 30px;
+}
+
+.btnCmn {
+    color: white;
+    font-size: 14px;
+    background-color: #96BB7C;
+    padding: 15px 40px;
+    border: 2px solid #96BB7C;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.btnTrans {
+    color: #96BB7C;
+    font-size: 14px;
+    background-color: transparent;
+    padding: 15px 40px;
+    border: 2px solid #96BB7C;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.herobtn {
+    margin-right: 5px;
+}
+
 /* media queruies for responsiveness */
 
 @media screen and (max-width:1280px) {
 
-
+    /* header syle here */
     header {
-
         padding: 0;
-
-
     }
 }
 
 @media screen and (max-width:1024px) {
+
+    /* header syle here */
     .bar {
         display: block;
     }
@@ -136,20 +198,46 @@ header a {
         font-size: 24px;
     }
 
+    /* hero section style here */
+    .heroMain {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    #heroTitle {
+        margin-top: 90px;
+    }
 }
 
 @media screen and (max-width:768px) {
     .container {
-
         padding: 20px;
-
     }
 }
 
 @media screen and (max-width:480px) {
+
+    /* header syle here */
     #logo {
-
         font-size: 20px;
+    }
 
+    /* hero section style here */
+
+
+    #heroTitle {
+        font-size: 40px;
+    }
+
+    #heroDes {
+        font-size: 14px;
+    }
+
+    .btnCmn {
+        padding: 10px 20px;
+    }
+
+    .btnTrans {
+        padding: 10px 20px;
     }
 }
