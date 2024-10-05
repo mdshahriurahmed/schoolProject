@@ -180,14 +180,14 @@ header a {
 }
 
 .pCard {
-    height: 288px;
-    width: 238px;
+    height: 250px;
+    width: 160px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.13);
     padding: 35px 40px;
 }
 
 .cardTitle {
-    font-size: 24px;
+    font-size: 16px;
     color: #252B42;
     font-weight: 700;
 }
@@ -201,17 +201,25 @@ header a {
 }
 
 .cardDes {
-    font-size: 18px;
+    font-size: 14px;
     color: #737373;
     line-height: 25px;
     margin-top: 20px;
 }
 
 
-.pCard img {
-    width: 100px;
-    height: auto;
+
+
+.card3 {
+    background-color: #96BB7C;
+
 }
+
+.c3Text {
+    color: white;
+}
+
+
 
 /* media queruies for responsiveness */
 
@@ -220,6 +228,13 @@ header a {
     /* header syle here */
     header {
         padding: 0;
+    }
+
+    /* Popular course section style */
+    .pCardMain {
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+        justify-content: center;
     }
 }
 
@@ -264,8 +279,24 @@ header a {
         text-align: center;
     }
 
+    .heroLeft {
+        margin-top: 100px;
+    }
+
     #heroTitle {
-        margin-top: 90px;
+        margin-top: 10px;
+    }
+
+    /* Popular course section style */
+    .pCardMain {
+        grid-template-columns: auto auto;
+        margin-top: 50px;
+    }
+
+    .pCourseMain {
+        margin-top: 30px;
+        text-align: center;
+
     }
 }
 
@@ -273,9 +304,14 @@ header a {
     .container {
         padding: 20px;
     }
+
+    /* Popular course section style */
+    .pCardMain {
+        grid-gap: 10px;
+    }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:520px) {
 
     /* header syle here */
     #logo {
@@ -299,5 +335,11 @@ header a {
 
     .btnTrans {
         padding: 10px 20px;
+    }
+
+    /* Popular course section style */
+    .pCardMain {
+        grid-template-columns: auto;
+
     }
 }
