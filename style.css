@@ -98,7 +98,7 @@ header a {
     align-items: center;
 }
 
-#online {
+.commonTopText {
     color: #96BB7C;
     font-size: 16px;
     font-weight: 700;
@@ -149,8 +149,68 @@ header a {
     font-weight: bold;
 }
 
-.herobtn {
+.heroBtn {
     margin-right: 5px;
+}
+
+
+/* Popular course section style */
+.cTitle {
+    font-size: 40px;
+    font-weight: 700;
+    color: #252B42;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pCourseMain {
+    margin-top: 120px;
+}
+
+.pDes {
+    color: #737373;
+    font-size: 14px;
+}
+
+.pCardMain {
+    margin-top: 112px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+}
+
+.pCard {
+    height: 288px;
+    width: 238px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.13);
+    padding: 35px 40px;
+}
+
+.cardTitle {
+    font-size: 24px;
+    color: #252B42;
+    font-weight: 700;
+}
+
+.cLine {
+    width: 70px;
+    height: 3px;
+    color: #E74040;
+    background-color: #E74040;
+    margin-top: 20px;
+}
+
+.cardDes {
+    font-size: 18px;
+    color: #737373;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+
+.pCard img {
+    width: 100px;
+    height: auto;
 }
 
 /* media queruies for responsiveness */
