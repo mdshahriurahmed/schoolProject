@@ -40,6 +40,8 @@ header a {
 
 .bar {
     display: none;
+    font-size: 24px;
+    color: #96BB7C;
 }
 
 .leftHead {
@@ -73,4 +75,81 @@ header a {
 
 #arrowIcon {
     margin-left: 5px;
+}
+
+.log {
+    display: none;
+}
+
+.rightHead {
+    display: flex;
+    align-items: center;
+}
+
+.pSign {
+    display: none;
+}
+
+/* media queruies for responsiveness */
+
+@media screen and (max-width:1280px) {
+
+
+    header {
+
+        padding: 0;
+
+
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .bar {
+        display: block;
+    }
+
+    .Options {
+        display: none;
+    }
+
+    .log {
+        display: block;
+        font-size: 24px;
+        color: #96BB7C;
+    }
+
+    #login {
+        display: none;
+    }
+
+    #sign {
+        display: none;
+    }
+
+    #signup {
+        margin-left: 10px;
+        padding: 5px 10px;
+    }
+
+    .pSign {
+        display: block;
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .container {
+
+        padding: 20px;
+
+    }
+}
+
+@media screen and (max-width:480px) {
+    #logo {
+
+        font-size: 20px;
+
+    }
 }
