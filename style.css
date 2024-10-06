@@ -220,6 +220,31 @@ header a {
 }
 
 
+/* quality education section style starts from here */
+.redLine {
+    height: 7px;
+    width: 93px;
+    background-color: #E74040;
+    margin-bottom: 35px;
+}
+
+.qualityMain {
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.qualityLeft img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.halfWidth {
+    width: 50%;
+}
+
 
 /* media queruies for responsiveness */
 
@@ -341,5 +366,25 @@ header a {
     .pCardMain {
         grid-template-columns: auto;
 
+    }
+
+    .qualityMain {
+        flex-direction: column;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .qualityMain img {
+        margin-bottom: 50px;
+    }
+
+    .qualityRight {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .halfWidth {
+        width: 100%;
     }
 }
